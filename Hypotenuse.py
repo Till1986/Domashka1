@@ -1,3 +1,4 @@
-from math import sqrt
-a,b = int(input()),int(input())
-print((a**2 + b**2)**0,5)
+names = ['raymond', 'rachel', 'matthew']
+colors = ['red', 'green', 'blue', 'yellow']
+for name, color in zip(names, colors):
+    print(name, '-->', color)
